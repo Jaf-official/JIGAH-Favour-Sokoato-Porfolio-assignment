@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #fdf2e9;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+header {
+  background-color: #fdf8e9e8;
+}
+header nav {
+  padding: 15px 0;
+}
+
+
+.container {
+  margin-left: 60%;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  padding-right: 30px;
+  text-decoration: none;
+  color: #333;
+  /* font-weight: 500; */
+  font-size: 20px;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+.btnn {
+  text-decoration: none;
+  font-size: 20px;
+  /* font-weight: 600; */
+  padding: 7px 14px;
+  border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+}
+
+.introduction {
+  margin-bottom: 20%;
+}
+.img-container {
+  margin: 5% 40% 0 40%;
+  width: 100%;
+}
+.img {
+  margin: 1px 15px;
+  width: 200px;
+  height: 50%;
+  border-radius: 50%;
+}
+.intro-text {
+  font-family: "Tenali Ramakrishna", sans-serif;
+  font-size: 150%;
+  font-weight: bolder;
+  text-align: center;
+  width: 50%;
+  margin: 0% 23%;
+}
+.wave {
+  font-size: 75%;
+}
+.stack {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.btnn-cv {
+  margin: 0 40%;
+}
+.bt:link,
+.bt:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+.bt:hover,
+.bt:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+
+.about-container
+ {
+  padding: 5% 3%;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 10% 10% 10%;
+}
+.about,
+.services {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+.about-text {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+.services-container{
+  padding: 5% 3%;
+  width: 80%;
+  margin: 0 10%;
+
+}
+.services-head {
+  text-decoration: underline;
+}
+.img-services {
+  width: 50%;
+}
+.img-services-2 {
+  width: 50%;
+  height: 20%;
+}
+
+
+.contact-me {
+  margin: 50px;
+}
+.form-details {
+  margin: 20px;
+}
+.ct-form input,
+.ct-form textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.cta-form input::placeholder {
+  color: #aaa;
+}
+.form-container {
+  width: 80%;
+  margin: 5% 10%;
+  padding: 4%;
+  background-color: #e67e22;
+  border-radius: 0px 20px 0px 20px;
+}
+.ct-form {
+  margin-bottom: 20px;
+}
+.icon {
+  font-size: 20px;
+  color: #555;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+.socials p {
+  margin-bottom: 5px;
+}
